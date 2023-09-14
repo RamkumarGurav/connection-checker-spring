@@ -43,12 +43,12 @@ public class UserController {
 
     String test1="test1 from developer branch";
 
-    String test2="test2 from developer branch";
+    String test2="test2 from developer branch: ad ";
 
 
 
 
-    String test3="test3 from developer branch: hi 3";
+    String test3="test3 from developer branch: hi 4";
 
     @Autowired
     private UserService userService;
