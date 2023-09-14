@@ -38,6 +38,8 @@ public class UserController {
 
     String newTestVariable=null;
 
+    String test1="test1";
+
     @Autowired
     private UserService userService;
 
