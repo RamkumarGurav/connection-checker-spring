@@ -38,7 +38,7 @@ public class UserController {
 
     String newTestVariable=null;
 
-    String test2="test2 now on main branch";
+
 
     @Autowired
     private UserService userService;
