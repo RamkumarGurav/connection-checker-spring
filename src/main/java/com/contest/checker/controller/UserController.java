@@ -64,6 +64,8 @@ public class UserController {
 
         // GETTING LOGGED IN USER
         String email = auth.getName();
+        String email2 = auth.getName();
+
 
         Optional<User> userOptional = userRepository.findByEmail(email);
         if (!userOptional.isPresent()) {
