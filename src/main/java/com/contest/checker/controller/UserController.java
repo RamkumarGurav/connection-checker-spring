@@ -38,7 +38,7 @@ public class UserController {
 
     String newTestVariable=null;
 
-    String test1="test1 now on main line";
+
 
 
     @Autowired
