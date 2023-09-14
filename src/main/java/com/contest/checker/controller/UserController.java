@@ -38,15 +38,11 @@ public class UserController {
 
     String newTestVariable=null;
 
-
-
-
     String test1="test1 from developer branch";
 
     String test2="test2 from developer branch: ad ";
 
     String test3="test3 from developer branch: hi 4";
-
 
     String code1="code1";
     String code2="code2";
