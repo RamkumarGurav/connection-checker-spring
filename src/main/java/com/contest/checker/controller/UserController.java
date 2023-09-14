@@ -39,10 +39,9 @@ public class UserController {
     String newTestVariable=null;
 
 
-<<<<<<< HEAD
-=======
+
     String test1="test1 from developer branch";
->>>>>>> developer
+
 
     @Autowired
     private UserService userService;
