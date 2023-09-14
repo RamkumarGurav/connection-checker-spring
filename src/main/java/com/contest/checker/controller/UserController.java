@@ -35,6 +35,9 @@ import java.util.Optional;
 @RestController
 public class UserController {
 
+
+    String newTestVariable=null;
+
     @Autowired
     private UserService userService;
 
@@ -73,6 +76,8 @@ public class UserController {
         }
 
         User loggedinUser = userOptional.get();
+
+        String hi;
 
         //DTO CONVERSION
         UserWithRoleNameDto userDto = userService.userToUserDtoWithRoleName(loggedinUser);

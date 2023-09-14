@@ -15,6 +15,7 @@ public class HomeController {
     @Value("${welcomeMsg}")
     String welcomeMsg;
 
+    String dummy=null;
 
     @GetMapping("/")
     public ResponseEntity<String> welcome(){
