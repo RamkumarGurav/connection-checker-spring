@@ -51,6 +51,8 @@ public class UserController {
     String test3="test3 from developer branch: hi 4";
 
     String code1="code1";
+    String code2="code2";
+
 
     @Autowired
     private UserService userService;
