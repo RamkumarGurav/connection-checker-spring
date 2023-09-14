@@ -39,7 +39,7 @@ public class UserController {
     String newTestVariable=null;
 
 
-    String test1="test1 from developer branch";
+    String test2="test2 from developer branch";
 
     @Autowired
     private UserService userService;
